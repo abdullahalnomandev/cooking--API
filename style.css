@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#EDD263;
+}
+.searchbox {
+    width: 900px;
+    margin: a;
+    text-align: center;
+
+}
+#detailsInfo img{
+    width: 250px;
+    height: 250px;
+}
+#detailsInfo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 40px;
+    padding-bottom: 40px;
+
+}
+.singleItem{
+    background-color: #ffff;
+    border-radius: 10px;
+}
+p#paragraph {
+    height: 69px;
+    text-align: center;
+    font-size: 16px;
+    font-family: arial;
+    margin: auto;
+    padding-top: 15px;
+}
+#mealIngredientDetails img{
+    width: 250px;
+    height: 150px;
+}
+
+#mealIngredientDetails{
+    width: 40%;
+    margin: auto;
+}
+button#btn {
+    background-color: #3B2D64;
+}
+div#mealIngredientDetails h3 {
+    color: #c50000;
+}
+
+div#mealIngredientDetails p {
+    font-size: 20px;
+    color: #6200ff;
+}
+
+div#mealIngredientDetails i {
+    color: #3B2D64;
+}
+
+#homeDetails {
+    text-align: center;
+    color: red;
+ }
+ #cookingHeader{
+     color:#3B2D64 ;
+ }
+#cookingHeader {
+    color: #3B2D64;
+    margin: 2%;
+    padding-left: 8%;
+    font-family: arial black;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+#detailsInfo{
+    display: grid;
+         grid-template-columns: repeat(1,1fr);
+        grid-gap: 40px;
+        padding-bottom: 40px;
+        
+    }
+    .singleItem {
+        background-color: #ffff;
+        border-radius: 10px;
+        width: 250px;
+        margin: auto;
+
+  }
+  
